@@ -117,6 +117,7 @@ h1, h2, h3, h4, h5{
     background-color: var(--peach-bg);
     padding: 30px;
     border: 10px solid #ffffff;
+    height: 25em;
 }
 .fa-arrow-right{
     color: inherit;
