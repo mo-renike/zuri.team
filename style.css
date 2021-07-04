@@ -20,7 +20,7 @@ a:hover{
     color: var(--red-button);
 }
 body {
-  font-size: 18px;
+  font-size: 20px;
 }
 p{
     font-size: 1em;
@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5{
     
 }
 .detail-text{
-    width: 50%;
+    width: 60%;
     padding: 20px;
     text-align: center;
     margin: 25px auto;
@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5{
 
 footer{
     background-color: var(--peach-bg);
-    padding: 30px 90px;
+    padding: 40px 30px;
     margin-top: 10em;
     justify-content: space-evenly;
 }
@@ -141,16 +141,19 @@ footer{
 .footer-links{
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+    margin: 30px auto;
 }
 
 
 @media (max-width:785px){
    body{
-       font-size: 13px;
+       font-size: 14px;
    }
    .detail-text,
    .intro-text{
        width: 100%;
+   }
+   .intro{
+       height: 70vh;
    }
 }
