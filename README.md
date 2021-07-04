@@ -1,6 +1,10 @@
 # zuri.team
 redesign  zuri.team main pages
 </br>
+figma link https://www.figma.com/file/rOG69t0chROuKXhCErX5CH/Untitled?node-id=0%3A1
+</br>
+website : https://github.com/mo-renike/ 
+</br>
 ## Designers
 </br>
 
@@ -9,7 +13,7 @@ portfolio : https://www.behance.net/boluwatodedeyi </br>
 
 ### Bamgboye Pelumi Oyelakin </br>
 portfolio : </br>
-figma link https://www.figma.com/file/rOG69t0chROuKXhCErX5CH/Untitled?node-id=0%3A1
+
 </br>
 ## Frontend Developer
 ### Oyewole Morenike </br>
