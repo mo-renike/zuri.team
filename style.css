@@ -359,7 +359,9 @@ footer {
   padding: 14px;
   width: 100%;
 }
-
+.contact-form input[type=textarea]{
+  height: 8em;
+}
 @media (max-width: 785px) {
   body {
     font-size: 14px;
