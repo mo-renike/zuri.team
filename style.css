@@ -32,27 +32,27 @@
 }
 .color1 {
   background-color: var(--color1);
-  width: 30%;
+  width: 10em;
 }
 .color1a {
   background-color: var(--color1);
-  width: 40%;
+  width: 14em;
 }
 .color2 {
   background-color: var(--color2);
-  width: 55%;
+  width: 19em;
 }
 .color3 {
   background-color: var(--color3);
-  width: 70%;
+  width: 24em;
 }
 .color4 {
   background-color: var(--color4);
-  width: 85%;
+  width: 29em;
 }
 .color5 {
   background-color: var(--color5);
-  width: 100%;
+  width: 34em;
 }
 
 .color1,
