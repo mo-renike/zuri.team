@@ -25,7 +25,6 @@
   justify-content: space-between;
   align-items: flex-start;
   font-size: 0.9em;
-  max-width: 100%;
 }
 
 .benefit-details i{
@@ -33,27 +32,27 @@
 }
 .color1 {
   background-color: var(--color1);
-  width: 10em;
+  width: 30%;
 }
 .color1a {
   background-color: var(--color1);
-  width: 14em;
+  width: 40%;
 }
 .color2 {
   background-color: var(--color2);
-  width: 19em;
+  width: 55%;
 }
 .color3 {
   background-color: var(--color3);
-  width: 24em;
+  width: 70%;
 }
 .color4 {
   background-color: var(--color4);
-  width: 29em;
+  width: 85%;
 }
 .color5 {
   background-color: var(--color5);
-  width: 34em;
+  width: 100%;
 }
 
 .color1,
@@ -377,5 +376,10 @@ footer {
   }
   .box {
     height: max-content;
+  }
+}
+@media (max-width: 463px) {
+  body {
+    font-size: 12px;
   }
 }
