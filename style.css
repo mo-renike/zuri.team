@@ -124,8 +124,9 @@ a {
 
 body {
   font-size: 20px;
-  color: #0a0a0a;
+  color: #131313;
   background-color: #ffffff;
+  scroll-behavior: smooth;
 }
 nav {
   background-color: inherit;
@@ -218,16 +219,9 @@ nav {
   color: inherit;
   margin-left: 4px;
 }
-.button {
-  background-color: transparent;
-  color: var(--red-button);
-  border: 1px solid var(--red-button);
-  margin-top: 10px;
-  width: auto;
-  /* font-size: .8em; */
-}
 
 .collage-wrapper {
+  margin-top: 5em;
   flex-grow: 1;
   display: grid;
   grid-template-columns: repeat(6, 2fr);
@@ -338,6 +332,34 @@ footer {
   background-color: #121212;
   color: #f2f2f2;
 }
+
+.contact{
+  padding: 50px;
+}
+.contact img{
+  margin: 4em auto;
+}
+.contact-form{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input{
+  background: transparent;
+  border: 1px solid rgb(201, 201, 201);
+  border-radius: 10px;
+  outline: none;
+  padding: 10px;
+  margin-bottom: 1.5em;
+  font-size: .9em;
+}
+
+.contact-form button{
+  padding: 14px;
+  width: 100%;
+}
+
 @media (max-width: 785px) {
   body {
     font-size: 14px;
