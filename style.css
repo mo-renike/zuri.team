@@ -25,6 +25,7 @@
   justify-content: space-between;
   align-items: flex-start;
   font-size: 0.9em;
+  max-width: 100%;
 }
 
 .benefit-details i{
