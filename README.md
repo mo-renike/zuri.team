@@ -11,7 +11,7 @@ website : https://github.com/mo-renike/
 portfolio : https://www.behance.net/boluwatodedeyi </br>
 
 ### Bamgboye Pelumi Oyelakin </br>
-portfolio : </br>
+portfolio : https://www.behance.net/pelumibot </br>
 
 ## Frontend Developer
 ### Oyewole Morenike </br>
