@@ -340,13 +340,11 @@ footer {
 .contact {
   padding: 50px;
 }
-.contact img {
-  margin: 4em auto;
-}
 .contact-form {
   padding: 10px;
   display: flex;
   flex-direction: column;
+  margin-top: 3em;
 }
 
 .contact-form input, 
