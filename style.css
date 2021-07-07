@@ -388,10 +388,6 @@ footer {
   padding: 20px;
   background-color: var(--peach-bg);
 }
-.page2,
- .page3{
-  display: none;
-}
 .stacks ul {
   padding: 10px;
   display: flex;
@@ -403,7 +399,7 @@ footer {
   width: 30%;
   text-align: center;
 }
-.curriculum .tab-content p{
+.curriculum details p{
   background-color: var(--peach-bg);
   padding: 10px;
 }
