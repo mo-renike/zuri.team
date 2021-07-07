@@ -430,9 +430,17 @@ footer {
   .box {
     height: max-content;
   }
+  .contact img,
+  .intro img{
+    display: none;
+  }
 }
 @media (max-width: 463px) {
   body {
     font-size: 12px;
+  }
+  .contact img,
+  .intro img{
+    display: none;
   }
 }
