@@ -27,7 +27,7 @@
   font-size: 0.9em;
 }
 
-.benefit-details i{
+.benefit-details i {
   margin-right: 3px;
 }
 .color1 {
@@ -337,35 +337,78 @@ footer {
   color: #f2f2f2;
 }
 
-.contact{
+.contact {
   padding: 50px;
 }
-.contact img{
+.contact img {
   margin: 4em auto;
 }
-.contact-form{
+.contact-form {
   padding: 10px;
   display: flex;
   flex-direction: column;
 }
 
-.contact-form input{
+.contact-form input {
   background: transparent;
   border: 1px solid rgb(201, 201, 201);
   border-radius: 10px;
   outline: none;
   padding: 10px;
   margin-bottom: 1.5em;
-  font-size: .9em;
+  font-size: 0.9em;
 }
 
-.contact-form button{
+.contact-form button {
   padding: 14px;
   width: 100%;
 }
-.contact-form input[type=textarea]{
+.contact-form input[type="textarea"] {
   height: 8em;
 }
+/* .curriculum {
+  
+} */
+.curriculum-text {
+  display: block;
+  text-align: center;
+  padding: 30px;
+  margin-top: 3em;
+}
+.curriculum-text h6 {
+  font-weight: normal;
+}
+
+.curriculum details {
+  padding: 20px;
+  
+}
+.curriculum details summary {
+  text-align: center;
+  padding: 20px;
+  background-color: var(--peach-bg);
+}
+.page2,
+ .page3{
+  display: none;
+}
+.stacks ul {
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.stacks li {
+  background-color: var(--peach-bg);
+  padding: 10px;
+  width: 30%;
+  text-align: center;
+}
+.curriculum .tab-content p{
+  background-color: var(--peach-bg);
+  padding: 10px;
+}
+
+
 @media (max-width: 785px) {
   body {
     font-size: 14px;
