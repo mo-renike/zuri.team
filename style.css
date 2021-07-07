@@ -128,7 +128,7 @@ a {
 
 body {
   font-size: 20px;
-  color: #131313;
+  color: #212121;
   background-color: #ffffff;
   scroll-behavior: smooth;
 }
@@ -349,14 +349,16 @@ footer {
   flex-direction: column;
 }
 
-.contact-form input {
+.contact-form input, 
+.contact-form select {
   background: transparent;
   border: 1px solid rgb(201, 201, 201);
-  border-radius: 10px;
+  border-radius: 5px;
   outline: none;
   padding: 10px;
   margin-bottom: 1.5em;
   font-size: 0.9em;
+  width: 100%;
 }
 
 .contact-form button {
@@ -366,6 +368,11 @@ footer {
 .contact-form input[type="textarea"] {
   height: 8em;
 }
+
+.enrollment{
+  margin: 4em auto;
+}
+
 /* .curriculum {
   
 } */
