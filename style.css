@@ -404,6 +404,10 @@ footer {
   width: 30%;
   text-align: center;
 }
+.accordion{
+  padding: 30px;
+  margin: 1em auto;
+}
 .accordion p{
   background-color: var(--peach-bg);
   padding: 10px;
