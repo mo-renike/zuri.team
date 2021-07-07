@@ -140,13 +140,16 @@ nav {
 .nav-link {
   color: inherit !important;
 }
+.navbar-nav{
+  margin: auto ;
+}
+
 .intro {
   display: flex;
   padding: 20px;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  background-color: var(--peach-bg);
 }
 .home-intro {
   display: block;
@@ -158,6 +161,10 @@ nav {
   width: 12%;
 }
 
+.peachbg{
+  background-color: var(--peach-bg);
+  color: #121212;
+}
 .top-right {
   position: absolute;
   top: 20px;
@@ -319,6 +326,7 @@ footer {
   position: fixed;
   top: 90px;
   right: 20px;
+  display: none;
 }
 .darkmode .fas {
   border-radius: 50%;
@@ -337,9 +345,6 @@ footer {
   color: #f2f2f2;
 }
 
-.contact {
-  padding: 50px;
-}
 .contact-form {
   padding: 10px;
   display: flex;
@@ -367,10 +372,14 @@ footer {
   height: 8em;
 }
 
-.enrollment{
-  margin: 4em auto;
+.tab-content {
+  display: none;
+  padding: 10px 20px;
 }
 
+.tab-content.active {
+  display: block;
+}
 /* .curriculum {
   
 } */
@@ -378,20 +387,11 @@ footer {
   display: block;
   text-align: center;
   padding: 30px;
-  margin-top: 3em;
+  color: inherit;
+  background-color: var(--peach-bg)
 }
 .curriculum-text h6 {
   font-weight: normal;
-}
-
-.curriculum details {
-  padding: 20px;
-  
-}
-.curriculum details summary {
-  text-align: center;
-  padding: 20px;
-  background-color: var(--peach-bg);
 }
 .stacks ul {
   padding: 10px;
@@ -404,9 +404,14 @@ footer {
   width: 30%;
   text-align: center;
 }
-.curriculum details p{
+.accordion p{
   background-color: var(--peach-bg);
   padding: 10px;
+}
+
+.accordion p:hover{
+  transform: translateY(4px);
+  transition: all .3s ease-in;
 }
 
 
