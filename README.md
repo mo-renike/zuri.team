@@ -3,7 +3,7 @@ redesign  zuri.team main pages
 </br>
 figma link https://www.figma.com/file/rOG69t0chROuKXhCErX5CH/Untitled?node-id=0%3A1
 </br>
-website : https://github.com/mo-renike/ 
+live website : https://mo-renike.github.io/zuri.team/
 </br>
 ## Designers
 
