@@ -387,14 +387,18 @@ footer {
 .curriculum-text h6 {
   font-weight: normal;
 }
-.stacks ul {
+.accordion button:hover{
+  outline: none;
+  background-color: inherit;
+  border: none;
+}
+.accordion ul {
   padding: 10px;
   display: flex;
   justify-content: space-evenly;
 }
-.stacks li {
+.accordion li {
   background-color: var(--peach-bg);
-  padding: 10px;
   width: 30%;
   text-align: center;
 }
@@ -410,14 +414,6 @@ footer {
 .accordion p:hover{
   transform: translateY(4px);
   transition: all .3s ease-in;
-}
-.tab-content {
-  display: none;
-  padding: 10px 20px;
-}
-
-.tab-content.active {
-  display: block;
 }
 
 @media (max-width: 785px) {
