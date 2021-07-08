@@ -13,6 +13,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
   </head>
@@ -75,7 +76,7 @@
       </div>
 
 
-<div class="container accordion" id="accordionExample">
+<div class="accordion container" id="accordionExample">
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingOne">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -84,15 +85,20 @@
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <div class="stacks">
           <ul class="nav nav-tabs">
-            <li ><a class="active" id="html" data-toggle="tab" href="#html">HTML</a></li>
-            <li><a  data-toggle="tab" id="css" href="#css">CSS</a></li>
-            <li><a data-toggle="tab" id="javascript" href="#javascript">JAVASCRIPT</a></li>
+        <li class="nav-item">
+            <a href="#html" class="nav-link active" data-toggle="tab">HTML</a>
+        </li>
+        <li class="nav-item">
+            <a href="#css" class="nav-link" data-toggle="tab">CSS</a>
+        </li>
+        <li class="nav-item">
+            <a href="#javascript" class="nav-link" data-toggle="tab">JAVASCRIPT</a>
+        </li>
           </ul>
-        </div>
-        <div class="tab-content active" id="html">
-          <p>1. HTML Elements</p>
+          <div class="tab-content">
+        <div class="tab-pane fade show active" id="html">
+             <p>1. HTML Elements</p>
           <p>2. HTML Tags</p>
           <p>3. HTML Attributes</p>
           <p> 4. HTML Comments (Recognising processor specific instructions “!”)</p>
@@ -112,23 +118,20 @@
           <p>18. Geolocation</p>
           <p>19. Web Storage</p>
         </div>
-        <div class="tab-content" id="css">
-          <p>1. Introduction</p>
-          <p>2. Linking HTML document to CSS document</p>
-          <p>
-            3. CSS Selectors (Considering useful Pseudo-classes and
-            Pseudo-elements)
-          </p>
-          <p>4. Considering various CSS Properties and Values</p>
-          <p>5. CSS Import</p>
-          <p>6. Image Sizing The 'Important' keyword</p>
-          <p>7. Manipulating Colors in CSS</p>
-          <p>8. Working with CSS Variables</p>
-          <p>9. Compatibility concerns (Browser Fallbacks</p>
-          <p>10. Responsiveness using CSS</p>
-        </div>
-        <div class="tab-content" id="javascript">
-          <p>1. Data Types</p>
+        <div class="tab-pane fade" id="css">
+            <p>1. Introduction</p>
+            <p>2. Linking HTML document to CSS document</p>
+            <p>3. CSS Selectors (Considering useful Pseudo-classes and Pseudo-elements).</p>
+            <p>4. Considering various CSS Properties and Values</p>
+            <p>5. CSS Import</p>
+            <p>6. Image Sizing The 'Important' keyword</p>
+            <p>7. Manipulating Colors in CSS</p>
+            <p>8. Working with CSS Variables</p>
+            <p>9. Compatibility concerns (Browser Fallbacks</p>
+            <p>10. Responsiveness using CSS</p>
+            </div>
+        <div class="tab-pane fade" id="javascript">
+              <p>1. Data Types</p>
           <p>2. Working with variables</p>
           <p>3. Working with functions</p>
           <p>4. Conditional statements</p>
@@ -142,9 +145,10 @@
           <p>12. Promises</p>
           <p>13. Async-wait</p>
           <p>14. HTTP Requests</p>
+          </div>
+          </div>
         </div>
       </div> 
-    </div>
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingTwo">
@@ -154,15 +158,20 @@
     </h2>
     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <div class="stacks">
-          <ul class="nav nav-tabs">
-            <li class="active"><a data-toggle="tab" href="#php">PHP</a></li>
-            <li><a data-toggle="tab" href="#python">PYTHON</a></li>
-            <li><a data-toggle="tab" href="#javascriptB">JAVASCRIPT</a></li>
-          </ul>
-        </div>
-        <div class="tab-content active" id="php">
-          <p>1. Introduction</p>
+        <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a href="#php" class="nav-link active" data-toggle="tab">PHP</a>
+        </li>
+        <li class="nav-item">
+            <a href="#python" class="nav-link" data-toggle="tab">PYTHON</a>
+        </li>
+        <li class="nav-item">
+            <a href="#javascriptB" class="nav-link" data-toggle="tab">JAVASCRIPT</a>
+        </li>
+    </ul>
+    <div class="tab-content">
+        <div class="tab-pane fade show active" id="php">
+           <p>1. Introduction</p>
           <p>2. String, Variables & Numbers</p>
           <p>3. Functions</p>
           <p>4. Arrays</p>
@@ -173,8 +182,8 @@
           <p>9. Classes and Objects</p>
           <p>10. Working with Laravel</p>
         </div>
-        <div class="tab-content" id="python">
-          <p>1. Python Object and Data Structure Basics</p>
+        <div class="tab-pane fade" id="python">
+            <p>1. Python Object and Data Structure Basics</p>
           <p>2. Python Comparison Operators</p>
           <p>3. Python Statements</p>
           <p>4. Methods and Functions</p>
@@ -186,8 +195,8 @@
           <p>10. Final Capstone Python Project</p>
           <p>11. Advanced Python Modules</p>
           <p>12. Advanced Python Objects and Data Structures</p>
-        </div>
-        <div class="tab-content" id="javascriptB">
+            </div>
+        <div class="tab-pane fade" id="javascriptB">
           <p>1. Introduction</p>
           <p>2. Hello, World!</p>
           <p>3. Setup Node.js Development Environment</p>
@@ -199,7 +208,8 @@
           <p>9. Working with ExpressJS</p>
           <p>10. Creating and deploying REST API</p>
           <p>11. Working with MongoDB</p>
-        </div>
+          </div>
+    </div>
       </div>
     </div>
   </div>
@@ -211,15 +221,20 @@
     </h2>
     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-       <div class="stacks">
-          <ul class="nav nav-tabs">
-            <li class="active"><a data-toggle="tab" href="#java">JAVA</a></li>
-            <li><a data-toggle="tab" href="#flutter">FLUTTER</a></li>
-            <li><a data-toggle="tab" href="#kotlin">KOTLIN</a></li>
-          </ul>
-        </div>
-        <div class="tab-content active" id="java">
-          <p>1. Hello, World!</p>
+       <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a href="#java" class="nav-link active" data-toggle="tab">JAVA</a>
+        </li>
+        <li class="nav-item">
+            <a href="#flutter" class="nav-link" data-toggle="tab">FLUTTER</a>
+        </li>
+        <li class="nav-item">
+            <a href="#kotlin" class="nav-link" data-toggle="tab">KOTLIN</a>
+        </li>
+    </ul>
+    <div class="tab-content">
+        <div class="tab-pane fade show active" id="java">
+           <p>1. Hello, World!</p>
           <p>2. Variables and Types</p>
           <p>3. Conditionals</p>
           <p>4. Arrays</p>
@@ -227,15 +242,15 @@
           <p>6. Functions</p>
           <p>7. Objects</p>
           <p>8. Compiling and Running with Arguments</p>
-          <p></p>
         </div>
-        <div class="tab-content" id="flutter">
+        <div class="tab-pane fade" id="flutter">
           <p>1. Introduction</p>
-        </div>
-        <div class="tab-content" id="kotlin">
+            </div>
+        <div class="tab-pane fade" id="kotlin">
           <p>1. Introduction and Installation</p>
           <p>2. Hello, World!</p>
-        </div>
+          </div>
+    </div>
       </div>
     </div>
   </div>
@@ -305,6 +320,8 @@
         </div>
       </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
   </body>
