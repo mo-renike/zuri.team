@@ -43,21 +43,25 @@
 // };
 // tabs();
 
-const wrapper = document.querySelector(".accordion-body")
-const btn = wrapper.querySelectorAll("a");
-const content = wrapper.querySelectorAll(".tab-content");
-content.forEach((btn) => {
-  btn.addEventListener("click", () => {
-    removeActiveClasses();
-    btn.classList.add("active");
-  });
-});
-
-function removeActiveClasses() {
+const tabs = () => {
+  const wrapper = document.querySelector(".accordion-body");
+  const btn = wrapper.querySelectorAll("a");
+  const content = wrapper.querySelectorAll(".tab-content");
+ 
   content.forEach((btn) => {
-    btn.classList.remove("active");
+    btn.addEventListener("click", () => {
+      removeActiveClasses();
+      btn.classList.add("active");
+    });
   });
-}
+
+  function removeActiveClasses() {
+    content.forEach((btn) => {
+      btn.classList.remove("active");
+    });
+  }
+};
+tabs();
 
 // const wrapper = document.querySelector(".accordion-body");
 // const btns = wrapper.querySelectorAll("a");

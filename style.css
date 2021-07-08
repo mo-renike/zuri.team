@@ -373,14 +373,7 @@ footer {
   height: 8em;
 }
 
-.tab-content {
-  display: none;
-  padding: 10px 20px;
-}
 
-.tab-content.active {
-  display: block;
-}
 /* .curriculum {
   
 } */
@@ -418,7 +411,14 @@ footer {
   transform: translateY(4px);
   transition: all .3s ease-in;
 }
+.tab-content {
+  display: none;
+  padding: 10px 20px;
+}
 
+.tab-content.active {
+  display: block;
+}
 
 @media (max-width: 785px) {
   body {
