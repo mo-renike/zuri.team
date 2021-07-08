@@ -150,6 +150,7 @@ nav {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  background-color: var(--peach-bg);
 }
 .home-intro {
   display: block;

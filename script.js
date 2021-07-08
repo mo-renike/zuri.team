@@ -42,3 +42,30 @@
 //   });
 // };
 // tabs();
+
+const wrapper = document.querySelector(".accordion-body")
+const btn = wrapper.querySelectorAll("a");
+const content = wrapper.querySelectorAll(".tab-content");
+content.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    removeActiveClasses();
+    btn.classList.add("active");
+  });
+});
+
+function removeActiveClasses() {
+  content.forEach((btn) => {
+    btn.classList.remove("active");
+  });
+}
+
+// const wrapper = document.querySelector(".accordion-body");
+// const btns = wrapper.querySelectorAll("a");
+// // Loop through the buttons and add the active class to the current/clicked button
+// for (let i = 0; i < btns.length; i++) {
+//   btns[i].addEventListener("click", () => {
+//     let current = wrapper.querySelectorAll(".active");
+//     current[0].className = current[0].className.replace(" active", "");
+//     this.className += " active";
+//   });
+// }
